@@ -42,7 +42,8 @@ def welcome():
         f"/api/v1.0/stations<br/>"
         f"/api/v1.0/tobs<br/>"
         f"/api/v1.0/&lt;start&gt;<br/>"
-        f"/api/v1.0/&lt;start&gt;/&lt;end&gt;"
+        f"/api/v1.0/&lt;start&gt;/&lt;end&gt;<br/>"
+        f"Please note dates must be entered in YYYY-MM-DD format"
     )
 
 @app.route("/api/v1.0/precipitation")
