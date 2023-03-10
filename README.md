@@ -17,10 +17,17 @@ From this we find that we have two tables, a station table which contains the ID
  
  Precipitation analysis
  
- This involved querying the most recent 12 months of the dataset for precipitation values along with the dates, loading the data into a Pandas DataFrame, sorting the data frame values by date and plotting a graph showing date vs inches of rainfall. The following is the graph produced:
+ This involved querying the most recent 12 months of the dataset for precipitation values along with the dates, loading the data into a Pandas DataFrame, sorting the data frame values by date and plotting and saving an image of a graph showing date vs inches of rainfall. The following is the graph produced:
  
 ![precipitaton](https://user-images.githubusercontent.com/119974799/224215042-052bf182-6d94-45ff-929f-3d99bd8b6e50.png)
 
 Also summary statistics were collected for the data:
 
 ![Screenshot 2023-03-09 221649](https://user-images.githubusercontent.com/119974799/224214515-f96b4d70-3821-4a7d-a0ce-0d80116983d7.png)
+
+
+Station/Temperature analysis
+
+This involved querying the data to find the number of weather stations, the most active station, the lowest, highest and average temperatures recorded for the most active station and finally collecting the most recent 12 months of temperature data for the most active station, plotting a histogram of the temperature data as a histogram and saving the image. The following graph was produced:
+
+![temperature](https://user-images.githubusercontent.com/119974799/224216247-45831ee2-edf8-4c55-9012-ae975053be10.png)
