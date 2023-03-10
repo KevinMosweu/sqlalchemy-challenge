@@ -31,3 +31,26 @@ Also summary statistics were collected for the data:
 This involved querying the data to find the number of weather stations, the most active station, the lowest, highest and average temperatures recorded for the most active station and finally collecting the most recent 12 months of temperature data for the most active station, plotting a histogram of the temperature data as a histogram and saving the image. The following graph was produced:
 
 ![temperature](https://user-images.githubusercontent.com/119974799/224218189-ffe38a74-40fc-4371-a318-843bdd79e977.png)
+
+## Part 2: Climate App
+
+#### Setup
+
+Created a Flask API based on the queries developed in part 1 to return data to users in JSON format. Below are the end points.
+
+#### Endpoints
+
+- /
+This is the homepage which lists the available endpoints
+
+- /api/v1.0/precipitation
+Retrieves the most recent 12 months of precipitation data for the weather stations by date
+
+- /api/v1.0/stations
+Retrieves a list of all stations in the dataset
+
+- /api/v1.0/tobs
+Retrieves temperature measurements along with dates for the most recent 12 months for the most active weather station
+
+- /api/v1.0/<start>
+Takes a starting date and retrieves the minimum, average and maximum temperatures in the data set from the starting date to the most recent measurement date. Date must be entered in YYYY-MM-DD format
