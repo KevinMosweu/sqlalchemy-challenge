@@ -22,4 +22,4 @@ From this we find that we have two tables, a station table which contains the ID
 
 Also summary statistics were collected for the data:
 
-![Screenshot 2023-03-09 220634](https://user-images.githubusercontent.com/119974799/224214233-db1d6269-ae97-47bf-b17d-d52162765622.png)
+![Screenshot 2023-03-09 221649](https://user-images.githubusercontent.com/119974799/224214515-f96b4d70-3821-4a7d-a0ce-0d80116983d7.png)
