@@ -59,3 +59,7 @@ Retrieves temperature measurements along with dates for the most recent 12 month
 - /api/v1.0/&lt;start&gt;
  
 Takes a starting date and retrieves the minimum, average and maximum temperatures in the data set from the starting date to the most recent measurement date. Date must be entered in YYYY-MM-DD format
+
+- /api/v1.0/&lt;start&gt;/&lt;end&gt;
+
+Takes a starting date and end date then retrieves the minimum, average and maximum temperatures in the data set between the starting date and end date. Date must be entered in YYYY-MM-DD format
