@@ -16,6 +16,7 @@ From this we find that we have two tables, a station table which contains the ID
 #### Analysis
  
  Precipitation analysis
+ 
  This involved querying the most recent 12 months of the dataset for precipitation values along with the dates, loading the data into a Pandas DataFrame, sorting the data frame values by date and plotting a graph showing date vs inches of rainfall. The following is the graph produced:
  
 ![precipitaton](https://user-images.githubusercontent.com/119974799/224215042-052bf182-6d94-45ff-929f-3d99bd8b6e50.png)
