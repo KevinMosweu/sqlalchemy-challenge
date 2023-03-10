@@ -56,6 +56,6 @@ Retrieves a list of all stations in the dataset
 
 Retrieves temperature measurements along with dates for the most recent 12 months for the most active weather station
 
-- /api/v1.0/<start>
+- /api/v1.0/&lt;start&gt;
  
 Takes a starting date and retrieves the minimum, average and maximum temperatures in the data set from the starting date to the most recent measurement date. Date must be entered in YYYY-MM-DD format
