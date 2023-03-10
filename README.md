@@ -30,4 +30,4 @@ Station/Temperature analysis
 
 This involved querying the data to find the number of weather stations, the most active station, the lowest, highest and average temperatures recorded for the most active station and finally collecting the most recent 12 months of temperature data for the most active station, plotting a histogram of the temperature data as a histogram and saving the image. The following graph was produced:
 
-![temperature](https://user-images.githubusercontent.com/119974799/224216247-45831ee2-edf8-4c55-9012-ae975053be10.png)
+![temperature](https://user-images.githubusercontent.com/119974799/224218189-ffe38a74-40fc-4371-a318-843bdd79e977.png)
